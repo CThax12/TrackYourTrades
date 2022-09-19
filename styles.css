@@ -1,0 +1,74 @@
+*{
+margin: 0;
+padding: 0;
+font-family: Century Gothic;
+
+
+}
+
+header {
+    background-color: black;
+    height: 7vh;
+    
+}
+
+ul {
+    float:right;
+    list-style-type: none;
+    margin-top: 25px;
+    
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: beige;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.4s ease
+    
+}
+
+ul li.active a{
+    background-color: beige;
+    color: black;
+}
+
+ul li a:hover{
+    background-color: beige;
+    color:black
+}
+
+.main {
+    max-width: 1200px;
+    margin: auto;
+
+}
+
+.title {
+    
+    text-align: left;
+    
+}
+
+.title h1 {
+    color: beige;
+    font-size: 50px;
+}
+
+.middle{
+    height: 93vh;
+    background: rgb(70,70,70);
+    background: radial-gradient(circle, rgba(70,70,70,1) 8%, rgba(9,34,61,1) 100%);     
+    display: flex;
+
+}
+
+.middle h1 {
+    margin-top: 20%;
+    margin-left: 50%;
+
+}
